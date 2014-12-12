@@ -6,3 +6,14 @@ ro.sf.lcd_density=213
 
 # don't preload OpenGL in Zygote, the Tegra drivers do not like it
 ro.zygote.disable_gl_preload=true
+
+### > resolution and overscan settings
+
+### uncomment line below to boot with 1280x720
+#persist.tegra.hdmi.resolution 720p
+
+### uncomment both lines below and tune overscan.val [0.00 - 0.20] for overscan correction
+#persist.sys.hdmi.overscan 1
+#persist.sys.hdmi.overscan.val 0.1
+
+### < resolution and overscan settings
